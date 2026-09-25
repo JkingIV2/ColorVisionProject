@@ -30,5 +30,5 @@ RGB color value: 000 000 000
 Here is an example of the program running:
 
 ```
-Replace this with a copy-pasted example of the input/output of your program running.
+
 ```
