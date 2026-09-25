@@ -28,9 +28,10 @@ do
   cout << "Do you have an image or a website that you're having trouble seeing certain colors or do you\n";
   cout << "already know the RBG values for the colors you need to compare?\n";
   cout << "Please type image, website or RBG based on what you're using then press enter.\n";
-
+  cout << "\n";
   cin >> response1;
-  
+
+
   if(response1 == "image")
   {
   cout << "We need to know the RBG Values of which colors you're having trouble seeing so,\n.";
@@ -104,7 +105,7 @@ do
   {
   case 1:
     colorcheck = true;
-    cout << "\n";
+    cout << "Lets go again!\n";
     break;
 
   case 2:
