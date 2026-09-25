@@ -86,8 +86,10 @@ do
   color2IsRed = (r2 > 150 && g2 < 100 && b2 < 100);
 
   if ((color1IsRed && color2IsGreen) || (color1IsGreen && color2IsRed)) 
+  // Example: color 1 values: R:151-255 G:0-99 B:0-99 (This is the RBG for Red colors)
+  //          color 2 values: R:0-99 G:151-255 B:0-99 (This is the RBG for Green colors)
   {
-  cout << "WARNING: Based on these two colors, it's common to have Red-Green color blindness issues (Deuteranopia/Protanopia).\n";
+  cout << "Hey Listen!: Based on these two colors, it's common to have Red-Green color blindness issues (Deuteranopia/Protanopia).\n";
   cout << "These colors may look identical to some users. It might be a good idea to adjust these.\n";
   } 
   else 
