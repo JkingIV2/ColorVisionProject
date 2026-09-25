@@ -30,5 +30,21 @@ RGB color value: 000 000 000
 Here is an example of the program running:
 
 ```
+Do you have an image or a website that you're having trouble seeing certain colors or do you
+already know the RBG values for the colors you need to compare?
+Please type image, website or RBG based on what you're using then press enter.
 
+RBG
+We can compare two colors at time, please enter the first color's RBG values below without any symbols.
+Example: Blue's RBG value is (0, 0, 255) and the correct format to enter is: 0 0 255
+Enter the 1st color's RGB values separated by spaces (Example for blue: 0 0 255): 152 55 55
+Enter 2nd color's RGB values separated by spaces: 55 152 55
+Hey Listen!: Based on these two colors, it's common to have Red-Green color blindness issues (Deuteranopia/Protanopia).
+These colors may look identical to some users. It might be a good idea to adjust these.
+
+Would you like to check more colors?
+1: Yes
+2: No
+Enter choice: 2
+Ending Program
 ```
