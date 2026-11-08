@@ -9,7 +9,7 @@ The end user is guided to one of two resources to derive the colors they are hav
 Future iterations are intended to check more color blind RBG values than just the above and require less technical inputs
 like RBG values, from the end user and perhaps asking them to only enter a URL or something that can be copy and pasted easily.
 
-**version 1.1**
+**version 2.0**
 
 Updates:
 
@@ -26,6 +26,14 @@ parseColorInput():
 Logs and Exports Session infomration to "color_safety_log.txt"
 
 Future iterations still aim to make the program easier for end users to use with less inputs or moments for inputs and then recommendations the user should consider to implement so that they can see more colors when using their web browser or web sites. This would require the program to check more types of color blindness or record more data about the end user and have a better "scoring" of the user to better define their color blindness/weaknesses.
+
+Bug:
+1st prompt response: color
+2nd prompt response: (0-255 number)
+3rd prompt response: abc
+loop occurs :(
+
+
 
 
 ## Developer
