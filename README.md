@@ -46,7 +46,7 @@ CSCI 111
 
 ```
 
-Here is an example of the V1.1 program running:
+Here is an example of the V2.0 program running:
 
 ```
 Do you have an image or a website that you're having trouble seeing certain colors or do you
