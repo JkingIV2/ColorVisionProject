@@ -29,8 +29,11 @@ Future iterations still aim to make the program easier for end users to use with
 
 Bug:
 1st prompt response = color
+
 2nd prompt response = (0-255 number)
+
 3rd prompt response = abc
+
 loop occurs :(
 
 
