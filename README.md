@@ -28,13 +28,11 @@ Logs and Exports Session infomration to "color_safety_log.txt"
 Future iterations still aim to make the program easier for end users to use with less inputs or moments for inputs and then recommendations the user should consider to implement so that they can see more colors when using their web browser or web sites. This would require the program to check more types of color blindness or record more data about the end user and have a better "scoring" of the user to better define their color blindness/weaknesses.
 
 Bug:
-1st prompt response = color
+potential infinite loop occurs if the user enters "255 0 blue"
 
-2nd prompt response = (0-255 number)
-
-3rd prompt response = abc
-
-loop occurs :(
+Change Consideration:
+Simplify the prompt, take out the "enter a Hexcode or RGB value"
+limit the user to only using named colors from a set and then instead ask, a yes or no prompt for a few different hues....if the goal of "what colors are you having trouble seeing" is the question/problem we're trying to solve. 
 
 
 
